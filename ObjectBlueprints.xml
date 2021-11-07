@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+	<object Name="BioMech" Load="Merge">
+		<part Name="Render" ColorString="&amp;c" DetailColor="r">
+		</part>
+	</object>
+</objects>

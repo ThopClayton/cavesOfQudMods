@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+  <class ID="Castes" Load="merge">
+
+      <subtype Name="Bio Mech" Code="e" Gear="StartingGear_BioMech" Tile="creatures/bioMech.png" DetailColor="o"><!--K looks kinda cool-->
+        <stat Name="Strength" Bonus="3" />
+        <!--<stat Name="CarryWeight" Bonus="100" />-->
+        <skills>
+          <skill Name="Tinkering" />
+          <skill Name="Tinkering_Repair" />
+          <skill Name="Tinkering_Disassemble" />
+          <skill Name="Tinkering_Scavenger" />
+          <skill Name="Tinkering_Tinker1" />
+          <skill Name="Tinkering_Tinker2" />
+        </skills>
+        <extrainfo>Additonal carryweight bonus of 300</extrainfo>
+      </subtype>
+
+  </class>
+</subtypes>
