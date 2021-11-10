@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
-  <population Name="StartingGear_BioMech">
+  <population Name="StartingGear_HulkingArmor">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
 
       <object Blueprint="HalfFullWaterskin" Number="3" />
-      <object Blueprint="Food Cube" Number="2-3" />
       <object Blueprint="Studded Leather Armor" Number="1" />
+      <object Blueprint="Long Sword" Number="1" />
 
-      <object Blueprint="Semi-Automatic Pistol" Number="1" />
-      <object Blueprint="Lead Slug" Number="150-400" />
-      <object Blueprint="Basic Toolkit" Number="1" />
-      <object Blueprint="Small Sphere of Negative Weight" Number="30" />
 
       <object Blueprint="SalveTonic" Number="1d3" />
-      <table Name="#Injectors" Number="1d3" />
-      <table Name="#Cells" Number="2d2" />
     </group>
   </population>
 </populations>
