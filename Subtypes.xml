@@ -2,11 +2,12 @@
 <subtypes>
   <class ID="Callings" Load="merge">
 
-      <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w"><!--K looks kinda cool-->
+      <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w">
         <stat Name="Strength" Bonus="3" />
         <stat Name="Endurance" Bonus="3" />
         <skills>
-
+          <skill Name="HeavyWeapons" />
+          <skill Name="HeavyWeapons_Tank" />
         </skills>
         <extrainfo>swag</extrainfo>
       </subtype>
