@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
 	<object Name="HulkingArmor" Load="Merge">
-		<part Name="Render" ColorString="&amp;c" DetailColor="y">
+		<part Name="Render" ColorString="&amp;c" DetailColor="w">
 		</part>
 	</object>
 </objects>

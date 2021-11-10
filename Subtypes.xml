@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
-  <class ID="Castes" Load="merge">
+  <class ID="Callings" Load="merge">
 
-      <subtype Name="Bio Mech" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="y"><!--K looks kinda cool-->
+      <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w"><!--K looks kinda cool-->
         <stat Name="Strength" Bonus="3" />
         <stat Name="Endurance" Bonus="3" />
         <skills>
