@@ -6,10 +6,12 @@
         <stat Name="Strength" Bonus="3" />
         <stat Name="Toughness" Bonus="3" />
         <skills>
-          <skill Name="HeavyWeapons" />
-          <skill Name="HeavyWeapons_Tank" />
+          <skill Name="LongBlades" />
+          <skill Name="LongBladesImprovedDefensiveStance" />
+          <skill Name="LongBladesProficiency" />
+          <skill Name="LongBladesSwipe" />
         </skills>
-        <extrainfo>swag</extrainfo>
+        <extrainfo>Few starting items</extrainfo>
       </subtype>
 
   </class>
