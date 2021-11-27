@@ -3,13 +3,14 @@
   <class ID="Callings" Load="merge">
 
       <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w">
-        <stat Name="Strength" Bonus="3" />
-        <stat Name="Toughness" Bonus="3" />
+        <stat Name="Strength" Bonus="2" />
+        <stat Name="Toughness" Bonus="2" />
+        <stat Name="Agility" Bonus="-2" />
+        <stat Name="Ego" Bonus="-1" />
         <skills>
           <skill Name="LongBlades" />
-          <skill Name="LongBladesImprovedDefensiveStance" />
           <skill Name="LongBladesProficiency" />
-          <skill Name="LongBladesSwipe" />
+          <skill Name="HeavyWeapons_Tank"/>
         </skills>
         <extrainfo>Few starting items</extrainfo>
       </subtype>
