@@ -2,17 +2,17 @@
 <subtypes>
   <class ID="Callings" Load="merge">
 
-      <subtype Name="The Child" Code="e" Gear="StartingGear_TheChild" Tile="creatures/TheChild.png" DetailColor="c">
-        <stat Name="Toughness" Bonus="-1" />
-        <stat Name="Willpower" Bonus="+3" />
+      <subtype Name="Mr. Muscles!" Code="e" Gear="StartingGear_MrMuscles" Tile="creatures/MrMuscles.png" DetailColor="w">
+        <stat Name="Toughness" Bonus="+1" />
+        <stat Name="Strength" Bonus="+1" />
         <skills>
-          <skill Name="Discipline"/>
-          <skill Name="Discipline_FastingWay"/>
-          <skill Name="Discipline_IronMind"/>
-          <skill Name="Discipline_Lionheart"/>
+          <skill Name="Cudgel"/>
+          <skill Name="Cudgel_Expertise"/>
+          <skill Name="Cudgel_Bludgeon"/>
+          <skill Name="Cudgel_Conk"/>
         </skills>
-        <extrainfo>A man, no, a child who has wandered their way into this land. They wear a toga over armor that has seen many battles, 
-          but can no longer offer protection to its wearer</extrainfo>
+        <extrainfo>"No shirt, no shoes, no service? I'LL KILL YOU!"</extrainfo>
+        <extrainfo>Is that a blindfold or a headband?</extrainfo>
       </subtype>
 
   </class>
