@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
-  <class ID="Castes" Load="merge">
+  <class ID="Callings" Load="merge">
 
-      <subtype Name="Bio Mech" Code="e" Gear="StartingGear_BioMech" Tile="creatures/bioMech.png" DetailColor="o"><!--K looks kinda cool-->
-        <stat Name="Strength" Bonus="3" />
-        <!--<stat Name="CarryWeight" Bonus="100" />-->
+      <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w">
+        <stat Name="Strength" Bonus="2" />
+        <stat Name="Toughness" Bonus="2" />
+        <stat Name="Agility" Bonus="-2" />
+        <stat Name="Ego" Bonus="-1" />
         <skills>
-          <skill Name="Tinkering" />
-          <skill Name="Tinkering_Repair" />
-          <skill Name="Tinkering_Disassemble" />
-          <skill Name="Tinkering_Scavenger" />
-          <skill Name="Tinkering_Tinker1" />
-          <skill Name="Tinkering_Tinker2" />
+          <skill Name="LongBlades" />
+          <skill Name="LongBladesProficiency" />
+          <skill Name="HeavyWeapons_Tank"/>
         </skills>
-        <extrainfo>Additonal carryweight bonus of 300</extrainfo>
+        <extrainfo>Few starting items</extrainfo>
       </subtype>
 
   </class>
