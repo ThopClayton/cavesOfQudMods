@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
-  <population Name="StartingGear_HulkingArmor">
+  <population Name="StartingGear_TheChild">
     <group Name="Items" Style="pickeach">
       <table Name="StartingGear_Common" />
 
       <object Blueprint="HalfFullWaterskin" Number="3" />
-      <object Blueprint="Studded Leather Armor" Number="1" />
-      <object Blueprint="Long Sword2" Number="1" />
-
-
-      <object Blueprint="SalveTonic" Number="1d3" />
+      <table Name="Melee Weapons 1" Number="3" />
+      <table Name="Armor 1" Number="3" />
+      <object Blueprint="Injectors" Number="2d3" />
     </group>
   </population>
 </populations>

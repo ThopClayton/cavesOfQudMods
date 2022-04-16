@@ -2,17 +2,17 @@
 <subtypes>
   <class ID="Callings" Load="merge">
 
-      <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w">
-        <stat Name="Strength" Bonus="2" />
-        <stat Name="Toughness" Bonus="2" />
-        <stat Name="Agility" Bonus="-2" />
-        <stat Name="Ego" Bonus="-1" />
+      <subtype Name="The Child" Code="e" Gear="StartingGear_TheChild" Tile="creatures/TheChild.png" DetailColor="c">
+        <stat Name="Toughness" Bonus="-1" />
+        <stat Name="Willpower" Bonus="+3" />
         <skills>
-          <skill Name="LongBlades" />
-          <skill Name="LongBladesProficiency" />
-          <skill Name="HeavyWeapons_Tank"/>
+          <skill Name="Discipline"/>
+          <skill Name="Discipline_FastingWay"/>
+          <skill Name="Discipline_IronMind"/>
+          <skill Name="Discipline_Lionheart"/>
         </skills>
-        <extrainfo>Few starting items</extrainfo>
+        <extrainfo>A man, no, a child who has wandered their way into this land. They wear a toga over armor that has seen many battles, 
+          but can no longer offer protection to its wearer</extrainfo>
       </subtype>
 
   </class>
