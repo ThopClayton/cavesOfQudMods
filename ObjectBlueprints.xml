@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
-	<object Name="TheChild" Load="Merge">
+	<object Name="MrMuscles" Load="Merge">
 		<part Name="Render" ColorString="&amp;c" DetailColor="w">
 		</part>
 	</object>
